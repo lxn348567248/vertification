@@ -18,7 +18,8 @@ public class MainThread {
 
         new Thread(() -> {
 
-            for (int i = 0; i < 10; i++) {
+            //mock send message
+            for (;;) {
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
